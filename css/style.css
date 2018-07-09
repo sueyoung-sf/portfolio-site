@@ -1,0 +1,70 @@
+/*
+Colors used
+Dark Green #113637
+Medium Green #4E878D
+Red #AC212F
+Light Green #C9D8D3
+*/
+
+
+
+div {
+  padding: 10px;
+  margin: 10px;
+}
+
+
+body {
+  background-color: #C9D8D3;
+  font-family: 'Rokkitt', serif;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+a {
+  color: #05676e;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a:active {
+  color: #489c79;
+}
+
+button {
+  border: none;
+  font-family: inherit;
+
+  background-color: #05676e;
+  color: white !important;
+  text-decoration: none;
+  padding-left: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #03474c;
+  transition: 0.2s opacity;
+}
+
+button:hover,
+button:focus {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.button-secondary {
+  background-color: #489c79;
+}
