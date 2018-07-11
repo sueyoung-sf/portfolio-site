@@ -6,13 +6,6 @@ Red #AC212F
 Light Green #C9D8D3
 */
 
-
-div {
-  padding: 10px;
-  margin: 10px;
-}
-
-
 body {
   background-color: #C9D8D3;
   font-family: 'Rokkitt', serif;
@@ -47,14 +40,12 @@ a:active {
 
 button {
   border: none;
-  font-family: inherit;
 
   background-color: #05676e;
   color: white !important;
   text-decoration: none;
-  padding-left: 10px;
-  border-radius: 3px;
-  border-bottom: 2px solid #03474c;
+  padding: 10px 16px;
+  border-radius: 4px;
   transition: 0.2s opacity;
 }
 
@@ -66,4 +57,32 @@ button:focus {
 
 .button-secondary {
   background-color: #489c79;
+}
+
+header {
+  padding: 10px 40px;
+}
+
+header img {
+  margin-top: 20px;
+}
+
+nav {
+  display: inline;
+  float: right;
+}
+
+nav ul {
+  padding-left: 12px;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin-left: 6px;
+  display: inline-block;
+}
+
+main {
+  max-width: 920px;
+  margin: 0 auto;
 }
