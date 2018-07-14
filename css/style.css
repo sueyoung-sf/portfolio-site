@@ -19,6 +19,7 @@ h1 {
 
 h2 {
   font-size: 30px;
+  padding-top: 40px;
 }
 
 h3 {
@@ -65,10 +66,12 @@ header {
 
 header img {
   margin-top: 20px;
+  max-width: 350px;
 }
 
 nav {
-  display: inline;
+  display: inline-block;
+  margin-left: 10px;
   float: right;
 }
 
@@ -85,4 +88,53 @@ nav ul li {
 main {
   max-width: 920px;
   margin: 0 auto;
+}
+
+article {
+  width: 100%;
+  max-width: 1000px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* Layout styling */
+.wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.column-container {
+  font-size: 0;
+}
+
+.column-4 {
+  width: 23%;
+  margin-left: 1%;
+  margin-right: 1%;
+  display: inline-block;
+  float: left;
+  text-align: center;
+}
+
+.column-4:first-child {
+  margin-left: 0;
+}
+
+@media all and (max-width: 500px) {
+  .logo {
+    height: 50px;
+  }
+  h1 {
+    font-size: 24px;
+    text-align: left;
+  }
+  .column-4 {
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
 }
